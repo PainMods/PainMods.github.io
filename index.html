@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MikuSTORE | Bot WhatsApp & Hosting</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: black;
+      background-image: url("https://telegra.ph/file/a55bffaa95da4370a0d67.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      color: white; /* Adjust text color for better visibility on background image */
+    }
+    .header {
+      text-align: center;
+    }
+    .header img {
+      max-width: 200px;
+    }
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .box {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7); /* Add semi-transparent black background for better readability */
+    }
+    .emoji {
+      font-size: 24px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 20px;
+      border-top: 1px solid #ddd;
+      color: white; /* Adjust text color for better visibility on background image */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>MikuSTORE  | Bot WhatsApp & Hosting </h1>
+      <img src="https://telegra.ph/file/12af7fc7586c6e9bf2c4f.jpg" alt="MikuSTORE Logo">
+    </header>
+
+    <h2>Sewa MikuBot </h2>
+
+    <div class="pricing">
+      <div class="box">
+        <h3>Sewa MikuBot 1 Bulan </h3>
+        <ul>
+          <li>Rp15.000,-</li>
+          <li>Aktif 24 Jam Nonstop ⏱️</li>
+          <li>Fitur Bagus dan Update Selalu </li>
+          <li><a href="https://wa.me/+6289525564466">Buy Now!! </a> </li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Sewa MikuBot Permanen </h3>
+        <ul>
+          <li>Rp80.000,-</li>
+          <li>Aktif 24 Jam Nonstop Permanen ⏱️</li>
+          <li>Fitur Bagus dan Update Selalu </li>
+          <li><a href="https://wa.me/+6289525564466">Buy Now!! </a> </li>
+        </ul>
+      </div>
+    </div>
+    
+    <h2>Cek Baterai </h2>
+
+    <div class="battery-info">
+      <p class="battery-level">...</p>
+      <script>
+        const batteryLevelElement = document.querySelector('.battery-level');
+
+        navigator.getBattery().then((battery) => {
+          batteryLevelElement.textContent = `${Math.floor(battery.level * 100)}%`;
+
+          battery.addEventListener('levelchange', () => {
+            batteryLevelElement.textContent = `${Math.floor(battery.level * 100)}%`;
+          });
+        });
+      </script>
+    </div>
+
+    <h2 class="emoji">Info Kontak ☎️</h2>
+
+    <div class="contact">
+      <ul>
+        <li>Location: Sumatera Utara, Indonesia 🇮🇩</li>
+        <li>Email: gu4rdian2021@gmail.com </li>
+        <li>Call: [📲 My Whatsapp](https://wa.me/6289525564466) </li>
+      </ul>
+      <ul>
+        <li>Rustan ‍</li>
+        <li>Jakarta, Indonesia 🇮🇩</li>
+        <li>Phone: [📲 My Whatsapp](https://wa.me/6289525564466) </li>
+        <li>Email: gu4rdian2021@gmail.com </li>
+      </ul>
+    </div

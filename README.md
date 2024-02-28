@@ -1,2 +1,1 @@
-# PainMods.github.io
-My Store
+# Miku Host
